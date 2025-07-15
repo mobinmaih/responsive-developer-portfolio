@@ -264,7 +264,7 @@ footer textarea {
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
-
+    nav ul,
     .banner,
     .about-items,
     .skills-container,
