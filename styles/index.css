@@ -265,13 +265,19 @@ footer textarea {
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
 
+    .banner,
     .about-items,
     .skills-container,
     .resume-container,
     footer {
         flex-direction: column;
     }
-
+    nav, .banner{
+        margin: 0;
+    }
+    .banner-pic{
+        width: 100%;
+    }
     .about {
         padding: 0;
     }
